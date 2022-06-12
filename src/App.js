@@ -13,7 +13,7 @@ export const App = () => {
 
   const onClickUser1 = () => {
     axios
-      .get("https://jsonplaceholder.typicode.com/users?id=1")
+      .get("https://jsonplaceholder.typicode.com/users?id=2")
       .then((res) => {
         console.log(res.data);
       })
